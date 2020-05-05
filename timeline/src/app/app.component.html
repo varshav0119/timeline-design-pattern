@@ -1,0 +1,39 @@
+<div class="container col-md-12">
+  <div class="d-flex justify-content-center">
+    <div class="col-md-4 text-center heading">
+        Timeline
+    </div>
+  </div>
+  <div class="timeline-container">
+    <mgl-timeline class="timeline">
+      <mgl-timeline-entry *ngFor="let event of eventsList">
+          <mgl-timeline-entry-header>
+            <div (mouseenter)="displaySide(event.path)" (mouseleave)="hideSide(event.path)">
+              <div class="d-flex justify-content-center pink">
+                <div class="text-center header transparent">
+                  <div class="title">{{event.title}}</div>
+                  <div class="date">{{event.date | date: 'mediumDate'}}</div>
+                </div>
+              </div>
+              <br/>
+              <!-- <a [routerLink]="['image/'+event.path]"> -->
+              <img *ngIf="event.type=='image'" [src]="event.path" class="image"/>
+              <!-- </a> -->
+              <router-outlet></router-outlet>
+          </div>
+          </mgl-timeline-entry-header>
+          <mgl-timeline-entry-content class="hide">
+          </mgl-timeline-entry-content>
+          <mgl-timeline-entry-side>
+            <div class="description side" *ngIf="canDisplay(event.path)">
+              {{event.description}}
+            </div>
+          </mgl-timeline-entry-side>
+          <mgl-timeline-entry-dot 
+          [size]="size"
+          class="text-center fill1 dot">
+          </mgl-timeline-entry-dot>
+      </mgl-timeline-entry>
+    </mgl-timeline>
+  </div>
+</div>

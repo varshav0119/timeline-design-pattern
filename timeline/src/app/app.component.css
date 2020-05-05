@@ -1,0 +1,58 @@
+.container {
+    background-color: #fac564;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
+}
+
+.timeline-container {
+    margin: 80px;
+}
+
+.description {
+    position:relative;
+    top: 124px;
+    margin: 10px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    color: #404040;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fill1 {
+    background-color: #fb63b7;
+}
+
+.header {
+    width: 200px;
+    padding: 5px;
+    color: #404040;
+}
+
+.hide {
+    display: none;
+}
+
+.pink {
+    background-image: linear-gradient(to right, #fb63b7, #fac564);
+}
+
+.heading {
+    color: #fb63b7;
+    font-family: 'Rouge Script', sans-serif;
+    font-size: 150px; 
+    line-height: 160px; 
+    font-weight: normal; 
+    margin-bottom: -50px; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-shadow: 0 5px 2px #fff;
+}
