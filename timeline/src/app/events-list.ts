@@ -49,12 +49,12 @@ export const EVENTS_LIST: TimelineEvent[] = [
     {title: "Mirror Selfie", description: "Yes, Mana's still here, stop asking", date: new Date("2020-02-12"), path: "assets/mirrorselfie.png", type: "image"},
     {title: "Turtle #2", description: "Varsha's gift, like her, is smol and sassy", date: new Date("2020-02-28"), path: "assets/turtle2.jpg", type: "image"},
     {title: "Exploring the World Pt. 2", description: "No, she's in Singapore now; yes, she knows about Corona, stop talking now", date: new Date("2020-03-09"), path: "assets/coronameme.jpg", type: "image"},
-    {title: "Mana tries Pottery!", description: "Dark circle and pastel colours", date: new Date("2020-03-21"), path: "assets/pottery.jpeg", type: "image"},
+    {title: "Mana tries Pottery!", description: "Dark circles and pastel colours", date: new Date("2020-03-21"), path: "assets/pottery.jpeg", type: "image"},
     {title: "Club Penguin!", description: "More なつかしい", date: new Date("2020-03-28"), path: "assets/clubpenguin.jpg", type: "image"},
     {title: "Zoom Birthday Party", description: "Of toast cake and treasure hunt and most things Mana", date: new Date("2020-05-04"), path: "assets/toastcake.png", type: "image"},
     {title: "Blockchain", description: "Of very many fun talks across very many days", date: new Date("2019-08-19"), path: "assets/blockchain.jpg", type: "image"},
     {title: "Kdramas: A Design Pattern", description: "Varsha doesn't know how to represent most of the points in UML", date: new Date("2019-11-10"), path: "assets/kdrama.jpg", type: "image"},
     {title: "Rude Awakening", description: "Mana will not let Varsha be lazy", date: new Date("2019-05-30"), path: "assets/wantsleep.jpg", type: "image"},
     {title: "Neurotic Varsha", description: "Clue: The Bell Jar", date: new Date("2019-09-05"), path: "assets/updown.jpg", type: "image"},
-    {title: "Gilly's", description: "We seem to eat a lot of pesto and pizza", date: new Date("2019-05-30"), path: "assets/gillys.jpeg", type: "image"}
+    {title: "Gilly's", description: "Mana and Varsha eat a lot of pesto and pizza", date: new Date("2019-05-30"), path: "assets/gillys.jpeg", type: "image"}
 ]
