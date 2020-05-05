@@ -6,14 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MglTimelineModule } from 'angular-mgl-timeline';
-import { TimelineComponent } from './timeline/timeline.component';
-import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TimelineComponent,
-    ImageComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

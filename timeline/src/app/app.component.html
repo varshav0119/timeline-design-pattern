@@ -19,7 +19,6 @@
               <!-- <a [routerLink]="['image/'+event.path]"> -->
               <img *ngIf="event.type=='image'" [src]="event.path" class="image"/>
               <!-- </a> -->
-              <router-outlet></router-outlet>
           </div>
           </mgl-timeline-entry-header>
           <mgl-timeline-entry-content class="hide">
@@ -36,4 +35,5 @@
       </mgl-timeline-entry>
     </mgl-timeline>
   </div>
+  <router-outlet></router-outlet>
 </div>
